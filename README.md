@@ -1,6 +1,4 @@
-# Kanji and Kana Anki Quiz
-
-### Video Demo: [Kanji and Kana Anki Quiz - CS50P 2025 Final Project](https://www.youtube.com/watch?v=eyj6RmwszPM)
+# Kanji and Kana Anki Quiz - CS50P 2025 Final Project
 
 ### Description:
 **Kanji and Kana Anki Quiz** is a simple *quiz game* developed in python playable directly in the terminal. It can be used to practice Japanese kanji and kana through a similar system to anki.
@@ -16,6 +14,11 @@ Once logged, you can play one type of **kana quiz** (no dakutens), or two differ
 Finally, you can view your **scores**, which consist in the *total number of games played*, *total points* (1 correct answer = 1 point) and *correct answers percentage* calculated accordingly.
 
 Since it is a simple program, there is minimal personalized classes usage (only `WordDict`). For an easier debugging, both `mypy` with type hints and `pytest` have been used. Several comments have been added for an easier code understanding.
+
+### Installation:
+This program runs in the terminal with python, so you have to have python installed.
+
+Install all packages from `requiremenmts.txt` with `pip install -r requirements.txt`. Non required but suggested, you can delete the database `users.db` and a new empty one will be created next time you launch the program. Keep in mind that the tests in `test_project.py` will not pass anymore.
 
 ### Additional credits:
 [JLPT vocab API](https://github.com/wkei/jlpt-vocab-api) by wkei
